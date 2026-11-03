@@ -14,9 +14,9 @@
       "sha256": "f3e749da7aa034b5eb6c611f6a8f8cdd36b65e9eaf5543cc220b4951bf621d62"
     },
     {
-      "bytes": 13078,
+      "bytes": 14542,
       "path": "README.md",
-      "sha256": "9279aa456b731334029c081299b40e925791470861d9250ce462232898454f42"
+      "sha256": "2c3bec552c5dc97546267c562b0a66718562ecc88dd40afcfd6db860eec5e0b3"
     },
     {
       "bytes": 6,
@@ -166,5 +166,6 @@
   },
   "original_author_display_name": "Dr. Aliakbar Emadoddin",
   "public_windows_normal_unsigned_preview_release": "https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/tag/windows-normal-2026.11.03-net10-unsigned",
-  "public_linux_normal_firstparty_art_companion_url": "https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/download/linux-normal-2026.11.03-unsigned/AppearanceStudio-KDE-Normal-Firstparty-Art-18.zip"
+  "public_linux_normal_firstparty_art_companion_url": "https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/download/linux-normal-2026.11.03-unsigned/AppearanceStudio-KDE-Normal-Firstparty-Art-18.zip",
+  "public_linux_kde_normal_0_1_1_patch_url": "https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/download/linux-normal-2026.11.03-unsigned/AppearanceStudio-KDE-Plasma6-0.1.1-unsigned-public.pyz"
 }

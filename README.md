@@ -24,6 +24,12 @@ The [Linux Normal release](https://github.com/TandemVector-Labs/AppearanceStudio
 
 Verify the art-pack checksum `cabd0aca6f3dc592161248ed8e4ef17240c997aef326e329de69292a7e95164e`; extract the `AppearanceStudioCatalog/` directory into `~/.local/share/backgrounds/` without replacing personal files. The existing KDE Qt6 Normal app can then show original art for all 18 world identities; 36 Dark/Light UI variants passed clean-home rendering. The release's original `SHA256SUMS` covers only the two unchanged `.pyz` apps; use the companion `.zip.sha256` to verify the art ZIP. This is an optional visual add-on, not a new desktop theme, system installer or signed release.
 
+## KDE Normal 0.1.1 — safer byte-exact World Undo
+
+The [**0.1.1 unsigned KDE Plasma 6 download**](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/download/linux-normal-2026.11.03-unsigned/AppearanceStudio-KDE-Plasma6-0.1.1-unsigned-public.pyz) is the preferred KDE Normal preview; its [separate SHA-256 checksum](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/download/linux-normal-2026.11.03-unsigned/AppearanceStudio-KDE-Plasma6-0.1.1-unsigned-public.pyz.sha256) verifies the new 70,776-byte archive (SHA-256 `31348a3a49bc88694af4821e2b687dcac46f6f45f6af776706b4c0871f150276`). The older KDE 0.1 archive and the original two-app `SHA256SUMS` remain unchanged; do not use the old checksum for this newer patch.
+
+The native KDE World Apply/Undo backend now records the original `kdeglobals` bytes, detects unrelated changes, and restores exactly when safe. Tests on **two real Plasma X11 laptops** applied `General / Dark`, including actual color scheme, desktop theme and first-party wallpaper, and restored `kdeglobals`, `plasmarc` and `plasma-org.kde.plasma.desktop-appletsrc` **byte-for-byte** (three SHA-256 identities on each host). A clean user-local installation plus the optional first-party 18-image pack also rendered 18 world identities and 36 Dark/Light previews without touching the active theme during installation. No code-signing certificate, native GPU Blur certification or Ultimate media is implied.
+
 ## Windows Normal 0.13.1 — published unsigned preview
 
 **[Official Windows x64 download and SHA-256 verification](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/tag/windows-normal-2026.11.03-net10-unsigned)** — WPF on **.NET 10 LTS**, a framework-dependent ZIP; requires the official Microsoft .NET 10 Desktop Runtime. Publisher: **TandemVector Labs**; original author: **Dr. Aliakbar Emadoddin**.
