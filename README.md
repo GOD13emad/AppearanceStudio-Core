@@ -18,6 +18,12 @@ Published under **TandemVector-Labs** on GitHub. The Core 0.9.1 source release t
 
 Version **0.9.1** is a release candidate. The portable core, Theme Pack validation, transaction rollback, installer/uninstaller, and read-only monitoring model are testable independently of a live desktop session. A stable GNOME 50 live canary and soak remain required before declaring version 1.0 final.
 
+## KDE Normal — 18 original first-party world artworks
+
+The [Linux Normal release](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/tag/linux-normal-2026.11.03-unsigned) now also provides an optional, standalone **[18-image first-party art pack](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/download/linux-normal-2026.11.03-unsigned/AppearanceStudio-KDE-Normal-Firstparty-Art-18.zip)** and a [dedicated SHA-256 file](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/download/linux-normal-2026.11.03-unsigned/AppearanceStudio-KDE-Normal-Firstparty-Art-18.zip.sha256). This 2,672,139-byte ZIP contains 18 original, 1600×900 procedural abstract hero images, the original author's LICENSE, NOTICE and a per-image hash manifest. The 18 images are **not** private copyrighted game/film artwork, Ultimate assets or native 8K images.
+
+Verify the art-pack checksum `cabd0aca6f3dc592161248ed8e4ef17240c997aef326e329de69292a7e95164e`; extract the `AppearanceStudioCatalog/` directory into `~/.local/share/backgrounds/` without replacing personal files. The existing KDE Qt6 Normal app can then show original art for all 18 world identities; 36 Dark/Light UI variants passed clean-home rendering. The release's original `SHA256SUMS` covers only the two unchanged `.pyz` apps; use the companion `.zip.sha256` to verify the art ZIP. This is an optional visual add-on, not a new desktop theme, system installer or signed release.
+
 ## Windows Normal 0.13.1 — published unsigned preview
 
 **[Official Windows x64 download and SHA-256 verification](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/tag/windows-normal-2026.11.03-net10-unsigned)** — WPF on **.NET 10 LTS**, a framework-dependent ZIP; requires the official Microsoft .NET 10 Desktop Runtime. Publisher: **TandemVector Labs**; original author: **Dr. Aliakbar Emadoddin**.
@@ -26,7 +32,7 @@ This first-party Windows Normal preview includes 18 procedurally generated origi
 
 ## Platform strategy
 
-Appearance Studio uses a shared Theme Pack and validation contract with platform-specific desktop backends. The current release candidate targets Linux/GNOME. Windows is an explicitly tracked platform target, but no Windows build is claimed as shipped yet. Machine-readable support status is bundled at `share/appearance-studio/platform-support.json`.
+Appearance Studio uses a shared Theme Pack and validation contract with platform-specific desktop backends. The Core 0.9.1 release candidate targets Linux/GNOME; separate **unsigned Normal preview releases** for GNOME 50, KDE Plasma 6 and Windows WPF .NET 10 are already shipped. Those previews are distinct from Core 0.9.1, full cinematic Ultimate, and certified stable v1.0. Core's original platform-support metadata at `share/appearance-studio/platform-support.json` describes that Core artifact, not later standalone Normal previews.
 
 ## Core capabilities
 
