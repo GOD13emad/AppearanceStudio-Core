@@ -9,14 +9,14 @@
       "sha256": "7eb9c84e32b75a7973df0a5a20e79427a2d22c8e9a49e548dd156e15d8f7a178"
     },
     {
-      "bytes": 336,
+      "bytes": 349,
       "path": "NOTICE",
-      "sha256": "09d501bfdc99c0c4522db8c803ce7b524a7691cbfd5aba4dcac61d81ee19f9e8"
+      "sha256": "f3e749da7aa034b5eb6c611f6a8f8cdd36b65e9eaf5543cc220b4951bf621d62"
     },
     {
-      "bytes": 10048,
+      "bytes": 10412,
       "path": "README.md",
-      "sha256": "3614424485b1e32354091efbb60b3d963ec061fc1a249693f82ea0948afba740"
+      "sha256": "7b2aa7f9ad2b13018578c937d0fb1e68e5caaa08b48e7658e1c147c5fc88da28"
     },
     {
       "bytes": 6,
@@ -141,7 +141,7 @@
   ],
   "full_product_final": false,
   "media_public_approval_basis": "Bundled studio-default manifest public_distribution_approved=true",
-  "original_author": "Aliakbar Emadoddin",
+  "original_author": "Dr. Aliakbar Emadoddin",
   "platform": "Linux GNOME/GTK",
   "private_source_repository_included": false,
   "product": "Appearance Studio Core",
