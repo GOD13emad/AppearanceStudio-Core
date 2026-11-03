@@ -6,7 +6,11 @@
 
 Appearance Studio is a professional desktop appearance center for GNOME on Linux. It is designed around a portable core, verified Theme Packs, bounded desktop writes, transactional rollback, and independent monitoring services.
 
-**Original author: Aliakbar Emadoddin · نویسندهٔ اصلی: علی‌اکبر عمادالدین**
+**Publisher: TandemVector Labs (GitHub: TandemVector-Labs)**
+
+**Original author: Dr. Aliakbar Emadoddin · نویسندهٔ اصلی: دکتر علی‌اکبر عمادالدین**
+
+**Unsigned Normal Linux preview (GNOME 50 and KDE Plasma 6):** [published release and SHA-256 assets](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/tag/linux-normal-2026.11.03-unsigned). This is a platform-specific preview, not Ultimate or a certified v1.0 release.
 
 Published under **TandemVector-Labs** on GitHub for Linux and future Windows products. The current Appearance Studio implementation targets Linux/GNOME; Windows support is planned and is not claimed as shipped yet.
 
