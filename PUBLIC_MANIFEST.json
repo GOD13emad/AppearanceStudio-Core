@@ -14,9 +14,9 @@
       "sha256": "f3e749da7aa034b5eb6c611f6a8f8cdd36b65e9eaf5543cc220b4951bf621d62"
     },
     {
-      "bytes": 16136,
+      "bytes": 17830,
       "path": "README.md",
-      "sha256": "233118db8c74976b31a1937919e4b7ce4c8c34bb44af733bbb31f9e4d9d57389"
+      "sha256": "ffbaa7b15833a213566868ba036e63104cc25af1027f79effd601ee018821b48"
     },
     {
       "bytes": 6,
@@ -168,5 +168,6 @@
   "public_windows_normal_unsigned_preview_release": "https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/tag/windows-normal-2026.11.03-net10-unsigned",
   "public_linux_normal_firstparty_art_companion_url": "https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/download/linux-normal-2026.11.03-unsigned/AppearanceStudio-KDE-Normal-Firstparty-Art-18.zip",
   "public_linux_kde_normal_0_1_1_patch_url": "https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/download/linux-normal-2026.11.03-unsigned/AppearanceStudio-KDE-Plasma6-0.1.1-unsigned-public.pyz",
-  "public_linux_kde_normal_0_1_2_patch_url": "https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/download/linux-normal-2026.11.03-unsigned/AppearanceStudio-KDE-Plasma6-0.1.2-unsigned-public.pyz"
+  "public_linux_kde_normal_0_1_2_patch_url": "https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/download/linux-normal-2026.11.03-unsigned/AppearanceStudio-KDE-Plasma6-0.1.2-unsigned-public.pyz",
+  "public_linux_gnome50_center_date_weather_v3_preview_url": "https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/download/linux-normal-2026.11.03-unsigned/AppearanceStudio-GNOME50-Center-Date-Weather-v3-unsigned-preview.zip"
 }
