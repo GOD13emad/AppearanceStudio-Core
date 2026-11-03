@@ -12,11 +12,17 @@ Appearance Studio is a professional desktop appearance center for GNOME on Linux
 
 **Unsigned Normal Linux preview (GNOME 50 and KDE Plasma 6):** [published release and SHA-256 assets](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/tag/linux-normal-2026.11.03-unsigned). This is a platform-specific preview, not Ultimate or a certified v1.0 release.
 
-Published under **TandemVector-Labs** on GitHub for Linux and future Windows products. The current Appearance Studio implementation targets Linux/GNOME; Windows support is planned and is not claimed as shipped yet.
+Published under **TandemVector-Labs** on GitHub. The Core 0.9.1 source release targets Linux/GNOME. Separate, explicitly unsigned Normal preview packages are now published for GNOME, KDE and Windows; none constitutes Ultimate or v1.0 final.
 
 ## Release status
 
 Version **0.9.1** is a release candidate. The portable core, Theme Pack validation, transaction rollback, installer/uninstaller, and read-only monitoring model are testable independently of a live desktop session. A stable GNOME 50 live canary and soak remain required before declaring version 1.0 final.
+
+## Windows Normal 0.13.1 — published unsigned preview
+
+**[Official Windows x64 download and SHA-256 verification](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/tag/windows-normal-2026.11.03-net10-unsigned)** — WPF on **.NET 10 LTS**, a framework-dependent ZIP; requires the official Microsoft .NET 10 Desktop Runtime. Publisher: **TandemVector Labs**; original author: **Dr. Aliakbar Emadoddin**.
+
+This first-party Windows Normal preview includes 18 procedurally generated original hero illustrations, 18 world identities and 36 WPF Dark/Light modes. The compiled release was validated under an isolated non-input Windows desktop (3 real loaded windows, 36 mode transitions, 139 assertions), while the user's installed application remained untouched. It **does not** include private Ultimate art, a Microsoft runtime, an MSI installer or a code signature. The Windows release is a preview, not a validated full cinematic system or Ultimate package.
 
 ## Platform strategy
 
@@ -55,7 +61,7 @@ The command-line core remains useful when the optional graphical or panel depend
 [official release and verification notes](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/tag/v0.9.1-rc1-tandemvector) ·
 [versioned Linux Core ZIP](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/download/v0.9.1-rc1-tandemvector/AppearanceStudio-Core-v0.9.1-rc1-TandemVector-unsigned.zip) ·
 [SHA-256 checksum](https://github.com/TandemVector-Labs/AppearanceStudio-Core/releases/download/v0.9.1-rc1-tandemvector/AppearanceStudio-Core-v0.9.1-rc1-TandemVector-unsigned.zip.sha256).
-Verify the asset against its published checksum before installation. The earlier **0.9.0 RC1** remains available below for historical reference; neither prerelease establishes GNOME 50 live acceptance or a shipped Windows product.
+Verify the asset against its published checksum before installation. The earlier **0.9.0 RC1** remains available below for historical reference; neither historical Linux Core archive contains the separate Windows Normal preview.
 
 The 0.9.1 update includes ownership-checked **in-place upgrade**, journal
 recovery via `python3 install.py --recover`, actual user-manager service-name
